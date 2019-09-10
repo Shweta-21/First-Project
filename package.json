@@ -10,10 +10,15 @@
     "type": "git",
     "url": "git+https://github.com/Shweta-21/Project1.git"
   },
-  "author": "",
+  "author": "Shweta Sharma",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Shweta-21/Project1/issues"
   },
-  "homepage": "https://github.com/Shweta-21/Project1#readme"
+  "homepage": "https://github.com/Shweta-21/Project1#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2",
+    "gulp-watch": "^5.0.1"
+  }
 }
