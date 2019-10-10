@@ -1,0 +1,10 @@
+//importing abstarct 
+@import 'abstract/mixins';
+
+// importing base layout
+@import 'base/reset',
+        'base/layout';
+
+// importing components
+@import 'components/tiny/button',
+        'components/Header';

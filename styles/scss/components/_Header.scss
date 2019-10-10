@@ -1,0 +1,44 @@
+.Header{
+    background-color: #097fbad9;
+
+    &-wrapper{
+        display: flex;    
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 0;
+    }
+
+    &-img {
+        width: 40px;
+        border-radius: 50%;
+    }
+
+    &-right{
+        display: flex;
+    }
+
+    &-nav{
+        color: #fff;
+        margin-right: 15px;
+    }
+
+    &-separator-y {
+        width: 2px;
+        height: 25px;
+        background: #d9d6d68c;
+        margin-right: 15px;
+    }
+}
+
+.Header{
+   @include for-phone-L{
+    &-right {
+        display: block;
+        position: absolute;
+        height: 60vh;
+        top: 0px;
+        left: 1px;
+        background: #097fbad9;
+    }
+   }
+}
