@@ -38,31 +38,23 @@ h6 {
   font-size: 14px; }
 
 .Header {
-  background-color: #097fbad9; }
-  .Header-wrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 0; }
+  padding: 15px 0 15px 5px;
+  width: 50px;
+  background-color: #d7697f;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-right: 1px solid #cb465c3d;
+  box-shadow: 0px 1px 8px 1px #cb465c73; }
   .Header-img {
     width: 40px;
     border-radius: 50%; }
   .Header-right {
-    display: flex; }
+    display: flex;
+    flex-direction: column; }
   .Header-nav {
     color: #fff;
-    margin-right: 15px; }
-  .Header-separator-y {
-    width: 2px;
-    height: 25px;
-    background: #d9d6d68c;
-    margin-right: 15px; }
-
-@media (max-width: 767px) {
-  .Header-right {
-    display: block;
-    position: absolute;
-    height: 60vh;
-    top: 0px;
-    left: 1px;
-    background: #097fbad9; } }
+    margin-top: 15px; }
